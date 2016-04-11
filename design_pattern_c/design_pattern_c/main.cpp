@@ -230,7 +230,7 @@ int main(int argc, char *argv[])
     int rac2 = 0x2;
     int rac3 = 0x4;
     int rac4 = 0x8;
-    
+    int rac5 = 0x16;
     int i = 0xe;
     int j = 0x5;
     
@@ -238,8 +238,10 @@ int main(int argc, char *argv[])
     int r2 = i & rac2;
     int r3 = i & rac3;
     int r4 = i & rac4;
+    int r5 = i & rac5;
+
     
-    cout <<"res:" << r1 << "/" << r2 << "/" << r3 << "/" << r4 << endl;
+    cout <<"res:" << r1 << "/" << r2 << "/" << r3 << "/" << r4 << "/"<< r5<<endl;
     
 	return 0;
 }
