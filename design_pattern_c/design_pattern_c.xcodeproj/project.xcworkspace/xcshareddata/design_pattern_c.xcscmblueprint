@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A10FA86D38B970BCBD9A30AB7BD90FD1B26FC9A2" : 0,
+    "7D9502AF184163AFDDD3644A1AC75E28B9439221" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7F5A445F-1B0C-4BE4-8989-D0E1A4906C79",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A10FA86D38B970BCBD9A30AB7BD90FD1B26FC9A2" : "..\/Users\/lichen\/Downloads\/dp\/java-design-patterns\/design_patterns",
+    "7D9502AF184163AFDDD3644A1AC75E28B9439221" : "..\/Users\/lichen\/Downloads\/dp\/java-design-patterns"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "design_pattern_c",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "design_pattern_c.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lichen79\/java-design-patterns.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7D9502AF184163AFDDD3644A1AC75E28B9439221"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lichen79\/design_patterns.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A10FA86D38B970BCBD9A30AB7BD90FD1B26FC9A2"
+    }
+  ]
+}
