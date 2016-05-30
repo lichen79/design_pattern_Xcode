@@ -70,16 +70,18 @@ int main(int argc, char *argv[])
     prod->Use();
     
 	delete prod;
-	
+    
+    
+    //AbstractFactory
+    cout << "--------------------AbstractFactory--------------------" << endl;
+    
     AbstractFactory * fc = new ConcreteFactory1();
     AbstractProductA * pa =  fc->createProductA();
     AbstractProductB * pb = fc->createProductB();
     pa->use();
     pb->eat();
     
-    //AbstractFactory
-    cout << "--------------------AbstractFactory--------------------" << endl;
-    AbstractFactory * fc2 = new ConcreteFactory2();
+   AbstractFactory * fc2 = new ConcreteFactory2();
     AbstractProductA * pa2 =  fc2->createProductA();
     AbstractProductB * pb2 = fc2->createProductB();
     pa2->use();
@@ -168,12 +170,19 @@ int main(int argc, char *argv[])
     
     //Bridge
     cout << "--------------------Bridge--------------------" << endl;
+    //de-coupling abstraction et implementation
+    
     Implementor * bpImp = new ConcreteImplementorA();
     Abstraction * bpa = new RefinedAbstraction(bpImp);
     bpa->operation();
     
     Abstraction * bpb = new RefinedAbstraction(new ConcreteImplementorB());
     bpb->operation();
+    
+    bpImp = new ConcreteImplementorA();
+    bpb = new RefinedAbstraction(bpImp);
+    bpb->operation();
+
     
     delete bpa;
     delete bpb;
@@ -188,6 +197,7 @@ int main(int argc, char *argv[])
     
     //Flyweight
     cout << "--------------------Flyweight--------------------" << endl;
+    
     FlyweightFactory factory;
     Flyweight * fw = factory.getFlyweight("one");
     fw->operation();
